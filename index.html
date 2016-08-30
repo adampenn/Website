@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adam J. Penn</title>
+    <!-- Bootstrap stuff -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/stylesheets/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/education.js"></script>
+    <!-- sortable tables -->
+  <!--   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body ng-app="myApp">
+    <nav style="margin-bottom: 0;" class="navbar navbar-custom">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" ui-sref='about'>Adam J. Penn</a></li>
+          <li><a ui-sref="projects">Projects</a></li>
+          <li><a ui-sref="contact">Contact Info</a></li>
+          <li><a ui-sref='education'>Education</a></li>
+          <li><a ui-sref="resume">Resume</a></li>
+          <li><a href="https://www.linkedin.com/in/adam-j-penn-2aab9325" target="blank">LinkedIn</a></li>
+          <li><a ui-sref='about'>About Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <h1>I appologize if the site is not fully functional I am in the process of building / updating it.</h1> -->
+    <div ui-view>if you are seeing this something is most likely broken. Feel free to call or text me to let me know 530 520 7331</div>
+  </body>
+</html>
+

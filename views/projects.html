@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="rows-background" ng-controller="ProjectsCtrl">
+      <h2 style="margin-left: .5em;">Projects</h2>
+      <br>
+      <div class="row container-fluid">
+        <div class="col-xs-12 col-md-6 col-lg-4 rows" ng-repeat="project in allProjects">
+          <span class="project-name">{{project.name}}</span>
+          <a ui-sref="{{project.link}}">
+          <div class="project">
+            <img style="opacity: 1;" ng-src="public/images/{{project.image}}"/>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
