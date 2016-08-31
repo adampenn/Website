@@ -5,9 +5,9 @@
       <h2 style="margin-left: .5em;">Bathroom Remodel</h2>
       <br>
        <div class="row container-fluid">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="image in bathroomPics">
-          <div class='content' style="padding-bottom:15px;">
-            <img ng-src="public/images/bathroom/{{image.small}}" width="250px" height="250px" />
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="image in images">
+          <div class='content' style="padding-bottom:15px;" ng-click="openLightboxModal($index)">
+            <img ng-src="public/images/bathroom/{{image.thumbUrl}}" width="250px" height="250px">
           </div>
         </div>
       </div>
