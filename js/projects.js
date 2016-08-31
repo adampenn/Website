@@ -1,4 +1,4 @@
-var app = angular.module('myApp.projects', ['ui.router', 'bootstrapLightbox']);
+var app = angular.module('myApp.projects', ['ui.router']);
 
 app.controller('ProjectsCtrl', function ($scope) {
   $scope.allProjects = [
