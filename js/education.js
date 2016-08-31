@@ -4,8 +4,8 @@ app.controller('EducationCtrl', function ($scope) {
   $scope.show = 'chico'
   $scope.schools = [
     {id:'chico', name:'Califonia State University Chico', dates:'2015 - 2017', degree:'B.S. in Computer Science'},
-    {id:'butte', name:'Butte Community College', dates:'2014 - 2015', degree:'Transfer to CSU Chico'},
-    {id:'inspire', name:'Inspire School of Arts and Sciences', dates:'2011 - 2013', degree:'High School Diploma'}
+    {id:'butte', name:'Butte Community College', dates:'2014 - 2015', degree:'Transfer to CSU Chico'}
+    //{id:'inspire', name:'Inspire School of Arts and Sciences', dates:'2011 - 2013', degree:'High School Diploma'}
   ]
   $scope.chicoCourses = [
     {number:'CSCI 311', name:'Algorithms and Data Structures', desc:'', grade:'C-', date:'Spring 2015'},

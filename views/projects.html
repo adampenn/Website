@@ -4,8 +4,8 @@
     <div class="rows-background" ng-controller="ProjectsCtrl">
       <h2 style="margin-left: .5em;">Projects</h2>
       <br>
-      <div class="row container-fluid">
-        <div class="col-xs-12 col-md-6 col-lg-4 rows" ng-repeat="project in allProjects">
+      <div class="container-fluid">
+        <div class="col-xs-12 col-sm-4 col-lg-4 rows" ng-repeat="project in allProjects">
           <span class="project-name">{{project.name}}</span>
           <a ui-sref="{{project.link}}">
           <div class="project">

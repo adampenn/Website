@@ -1,9 +1,10 @@
 var app = angular.module('myApp', [
-	'ui.router',
-	'myApp.projects',
+  'ui.router',
+  'myApp.projects',
   'myApp.contact',
   'myApp.education'
-	]);
+]);
+
 app.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('about');
   $stateProvider

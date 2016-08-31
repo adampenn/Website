@@ -11,7 +11,7 @@ body {
 }
 .rows {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 .navbar-custom {
   background-color: white;
@@ -27,7 +27,7 @@ body {
   /*padding: 1em;*/
   margin: .5em;
 }
-.project img {
+.projectsssss img {
   flex-shrink:0;
   /*min-width:100%;*/
   /*min-height: 100%;*/
@@ -36,6 +36,30 @@ body {
   justify-content:center;
   align-items:center;
   overflow:hidden;
+}
+
+.container {
+  text-align: center;
+}
+.container > div {
+  width: 250px; /* Declare your value. Can be in relative units. */
+  height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  /* IE fix. */
+  *display: inline;
+  zoom: 1;
+}
+.container:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+.project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
 }
 .about {
   margin-left: .5em;
