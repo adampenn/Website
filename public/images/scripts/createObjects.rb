@@ -21,7 +21,7 @@ input.split.each do |item|
   if item.include? "small"
     output << "      'thumbUrl':'" + item + "'\n    },\n"
   else
-    output << "    {\n      'url':'public/images/bathroom/" + item + "',\n"
+    output << "    {\n      'url':'public/images/midiController/" + item + "',\n"
   end
 end
 
