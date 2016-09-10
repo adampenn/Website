@@ -63,7 +63,7 @@ body {
 }
 .about {
   margin-left: .5em;
-  align-items: center;
+  text-align: center;
   /*display:flex;*/
 }
 .about-text {

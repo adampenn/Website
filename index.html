@@ -3,6 +3,8 @@
   <head>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.2.js"></script>
     <script src="components/angular-ui-router.js"></script>
     <link rel="stylesheet" href="public/stylesheets/styles.css">
@@ -16,19 +18,32 @@
     <!--<link rel="stylesheet" href="style.css">-->
 </head>
   <body ng-app="myApp">
-    <nav style="margin-bottom: 0;" class="navbar navbar-custom">
-      <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a class="navbar-brand" ui-sref='about'>Adam J. Penn</a></li>
-          <li><a ui-sref="projects">Projects</a></li>
-          <li><a ui-sref="contact">Contact Info</a></li>
-          <li><a ui-sref='education'>Education</a></li>
-          <li><a ui-sref="resume">Resume</a></li>
-          <li><a href="https://www.linkedin.com/in/adam-j-penn-2aab9325" target="blank">LinkedIn</a></li>
-          <li><a ui-sref='about'>About Me</a></li>
-        </ul>
+    <div class='nav navbar-default'>
+      <div class='container-fluid'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" ui-sref='about'>Adam J. Penn</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a data-toggle="collapse" data-target="#navbar-collapse.in" ui-sref="projects">Projects</a></li>
+            <li><a data-toggle="collapse" data-target="#navbar-collapse.in" ui-sref="contact">Contact Info</a></li>
+            <li><a data-toggle="collapse" data-target="#navbar-collapse.in" ui-sref='education'>Education</a></li>
+            <li><a data-toggle="collapse" data-target="#navbar-collapse.in" ui-sref="resume">Resume</a></li>
+            <li><a data-toggle="collapse" data-target="#navbar-collapse.in" href="https://www.linkedin.com/in/adam-j-penn-2aab9325" target="blank">LinkedIn</a></li>
+            <li><a data-toggle="collapse" data-target="#navbar-collapse.in" ui-sref='about'>About Me</a></li>
+          </ul>
+	</div><!-- /.navbar-collapse -->  
       </div>
-    </nav>
+    </div>
+
     <div ui-view>if you are seeing this something is most likely broken. Feel free to call or text me to let me know 530 520 7331</div>
   </body>
 </html>

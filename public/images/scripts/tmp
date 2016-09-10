@@ -1,8 +1,4 @@
     {
-      'url':'public/images/midiController/0.jpg',
-      'thumbUrl':'0.jpg.small'
-    },
-    {
       'url':'public/images/midiController/10.jpg',
       'thumbUrl':'10.jpg.small'
     },
@@ -55,8 +51,52 @@
       'thumbUrl':'21.jpg.small'
     },
     {
+      'url':'public/images/midiController/22.jpg',
+      'thumbUrl':'22.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/23.jpg',
+      'thumbUrl':'23.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/24.jpg',
+      'thumbUrl':'24.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/25.jpg',
+      'thumbUrl':'25.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/26.jpg',
+      'thumbUrl':'26.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/27.jpg',
+      'thumbUrl':'27.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/28.jpg',
+      'thumbUrl':'28.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/29.jpg',
+      'thumbUrl':'29.jpg.small'
+    },
+    {
       'url':'public/images/midiController/2.jpg',
       'thumbUrl':'2.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/30.jpg',
+      'thumbUrl':'30.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/31.jpg',
+      'thumbUrl':'31.jpg.small'
+    },
+    {
+      'url':'public/images/midiController/32.jpg',
+      'thumbUrl':'32.jpg.small'
     },
     {
       'url':'public/images/midiController/3.jpg',
