@@ -13,6 +13,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
   	controller: 'ProjectsCtrl',
     templateUrl: 'views/projects.html'
   })
+  .state('orionApp', {
+    url: '/orionApp',
+    controller: 'ProjectsCtrl',
+    templateUrl: 'OrionApp/app/index.html'
+  })
   .state('bathroom', {
     url: '/bathroom',
     controller: 'ProjectsCtrl',
