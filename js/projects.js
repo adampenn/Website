@@ -1,12 +1,14 @@
 var app = angular.module('myApp.projects', ['ui.router', 'bootstrapLightbox']);
 
 app.controller('ProjectsCtrl', function ($scope, Lightbox) {
-  $scope.allProjects = [
+  $scope.hrefProjects = [
+    {name:'Orion Mobile App', image:'orionApp/orionApp.jpg', link:'OrionApp/app/index.html'},
+    {name:'Web Class Final Project', image:'webFinal/main.jpg', link:'cmp'},
+  ]
+  $scope.srefProjects = [
     {name:'Vynle Wrap', image:'vynleWrap/main.jpg', link:'vynleWrap'},
     {name:'Midi Controller', image:'midiController/18.jpg', link:'midiController'},
-    {name:'Web Class Final Project', image:'webFinal/main.jpg', link:'webFinal'},
     {name:'Bathroom Remodel', image:'bathroom/29.jpg', link:'bathroom'},
-    {name:'Orion Mobile App', image:'orionApp/orionApp.jpg', link:'bathroom'}
   ];
 
   $scope.midiController = [
